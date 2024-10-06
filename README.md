@@ -20,6 +20,9 @@ pip install Flask pydantic requests
 
 Always start eggdrop with the venv activated if you used this method.
 
+# Installation
+Put the script in your scripts/-Folder and add `pysource scripts/github.py` to the end of your eggdrop.conf.
+
 You also need to register a Github Webhook (all events is fine, only some events are currently supported) with your public IP/Port and copy the secret into the script.
 
 # Package versions
